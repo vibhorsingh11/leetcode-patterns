@@ -1,4 +1,4 @@
-const twoSum = require('../main/Problem03_TwoSum');
+const twoSum = require('../../main/01-ArrayAndHasMap/Problem03_TwoSum');
 
 test('should return the index of two numbers', () => {
   const nums = [2, 7, 11, 15],
