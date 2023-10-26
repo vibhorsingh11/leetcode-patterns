@@ -1,4 +1,4 @@
-const isValidSudoku = require('../main/Problem07_ValidSudoku');
+const isValidSudoku = require('../../main/01-ArrayAndHasMap/Problem07_ValidSudoku');
 
 test('should return if sudoku is valid', () => {
   const board = [
