@@ -1,4 +1,4 @@
-const twoSum = require("../main/Problem11_TwoSumIIInputArrayIsSorted");
+const twoSum = require("../../main/02-TwoPointers/Problem11_TwoSumIIInputArrayIsSorted");
 
 test('should return the indices', () => {
     const numbers = [2, 7, 11, 15];
