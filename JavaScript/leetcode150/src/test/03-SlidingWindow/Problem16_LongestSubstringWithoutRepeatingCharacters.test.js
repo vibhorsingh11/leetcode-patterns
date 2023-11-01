@@ -1,4 +1,4 @@
-const lengthOfLongestSubstring = require('../main/Problem16_LongestSubstringWithoutRepeatingCharacters');
+const lengthOfLongestSubstring = require('../../main/03-SlidingWindow/Problem02_LongestSubstringWithoutRepeatingCharacters');
 
 test('should return length od longest substring', () => {
   const s = 'pwwkew';
