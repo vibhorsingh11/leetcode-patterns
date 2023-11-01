@@ -1,4 +1,4 @@
-const characterReplacement = require('../main/Problem17_LongestRepeatingCharacterReplacement');
+const characterReplacement = require('../../main/03-SlidingWindow/Problem03_LongestRepeatingCharacterReplacement');
 
 test('should return the longest non repeating char', () => {
   const s = 'AABABBA',
