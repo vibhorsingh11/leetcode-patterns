@@ -1,4 +1,4 @@
-const minWindow = require('../main/Problem19_MinimumWindowSubstring');
+const minWindow = require('../../main/03-SlidingWindow/Problem05_MinimumWindowSubstring');
 
 test('should return min subString', () => {
   const s = 'ADOBECODEBANC',
