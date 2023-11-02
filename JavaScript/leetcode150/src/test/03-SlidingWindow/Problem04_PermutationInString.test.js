@@ -1,4 +1,4 @@
-const checkInclusion = require('../main/Problem18_PermutationInString');
+const checkInclusion = require('../../main/03-SlidingWindow/Problem04_PermutationInString');
 
 test('should return true', () => {
   const s1 = 'ab',
