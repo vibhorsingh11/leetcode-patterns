@@ -1,4 +1,4 @@
-const maxSlidingWindow = require('../main/Problem20_SlidingWindowMaximum');
+const maxSlidingWindow = require('../../main/03-SlidingWindow/Problem06_SlidingWindowMaximum');
 
 test('should return max sliding window', () => {
   const nums = [1, 3, -1, -3, 5, 3, 6, 7],
