@@ -1,4 +1,4 @@
-const MinStack = require('../main/Problem22_MinStack');
+const MinStack = require('../../main/04-Stack/Problem02_MinStack');
 
 test('should return min stack', () => {
   const minStack = new MinStack();
