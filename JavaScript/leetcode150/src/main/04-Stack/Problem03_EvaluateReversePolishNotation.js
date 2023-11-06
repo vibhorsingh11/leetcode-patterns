@@ -29,4 +29,6 @@ var evalRPN = function (tokens) {
   return parseInt(stack.pop());
 };
 
+//Time Complexity:- O(n), where n is the number of elements in the `tokens` array.
+
 module.exports = evalRPN;
