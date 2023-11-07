@@ -1,4 +1,4 @@
-const dailyTemperatures = require('../main/Problem25_DailyTemperatures');
+const dailyTemperatures = require('../../main/04-Stack/Problem05_DailyTemperatures');
 
 test('should return daily temp', () => {
   const temperatures = [73, 74, 75, 71, 69, 72, 76, 73];
