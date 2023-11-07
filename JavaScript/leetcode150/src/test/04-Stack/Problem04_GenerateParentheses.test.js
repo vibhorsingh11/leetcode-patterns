@@ -1,4 +1,4 @@
-const generateParenthesis = require('../main/Problem24_GenerateParentheses');
+const generateParenthesis = require('../../main/04-Stack/Problem04_GenerateParentheses');
 
 test('should return all combinations of parenthesis', () => {
   const res = ['((()))', '(()())', '(())()', '()(())', '()()()'];
