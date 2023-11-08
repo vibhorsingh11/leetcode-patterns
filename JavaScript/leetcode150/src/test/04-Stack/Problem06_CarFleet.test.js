@@ -1,4 +1,4 @@
-const carFleet = require('../main/Problem26_CarFleet');
+const carFleet = require('../../main/04-Stack/Problem06_CarFleet');
 
 test('should return total car fleet', () => {
   const target = 12,
