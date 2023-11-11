@@ -1,4 +1,4 @@
-const searchMatrix = require('../main/Problem29_SearchA2DMatrix');
+const searchMatrix = require('../../main/05-BinarySearch/Problem02_SearchA2DMatrix');
 
 test('should return true if exist', () => {
   const matrix = [
