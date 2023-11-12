@@ -23,4 +23,9 @@ var minEatingSpeed = function (piles, h) {
   return minHours;
 };
 
+//Time Complexity:- O(n log m) where n is the length of the piles array and m is the maximum value in the piles array.
+//This is because the code uses a binary search algorithm to find the minimum eating speed, which has a
+//time complexity of O(log m), and for each iteration of the binary search, it calculates the number of hours
+//required to eat all the piles, which takes O(n) time.
+
 module.exports = minEatingSpeed;
