@@ -20,4 +20,8 @@ var findMin = function (nums) {
   return nums[left];
 };
 
+//Time Complexity:- O(n) In each iteration of the while loop, the size of the search space is reduced by half. Therefore,
+//the number of iterations required to find the minimum element is proportional to the logarithm of the size of the
+//input array.
+
 module.exports = findMin;
