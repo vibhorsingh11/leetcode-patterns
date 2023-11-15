@@ -1,4 +1,4 @@
-const TimeMap = require('../main/Problem33_TimeBasedKeyValueStore');
+const TimeMap = require('../../main/05-BinarySearch/Problem06_TimeBasedKeyValueStore');
 
 test('should return time key based value', () => {
   let time = new TimeMap();
