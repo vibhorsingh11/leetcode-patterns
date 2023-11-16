@@ -1,4 +1,4 @@
-const findMedianSortedArrays = require('../main/Problem34_MedianOfTwoSortedArrays');
+const findMedianSortedArrays = require('../../main/05-BinarySearch/Problem07_MedianOfTwoSortedArrays');
 
 test('should return min median', () => {
   const nums1 = [1, 3],
