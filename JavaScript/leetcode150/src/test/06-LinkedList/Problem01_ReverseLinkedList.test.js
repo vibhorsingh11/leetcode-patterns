@@ -1,4 +1,4 @@
-const reverseList = require('../main/Problem35_ReverseLinkedList');
+const reverseList = require('../../main/06-LinkedList/Problem01_ReverseLinkedList');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
