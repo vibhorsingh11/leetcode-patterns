@@ -1,4 +1,4 @@
-const mergeTwoLists = require('../main/Problem36_MergeTwoSortedLists');
+const mergeTwoLists = require('../../main/06-LinkedList/Problem02_MergeTwoSortedLists');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
