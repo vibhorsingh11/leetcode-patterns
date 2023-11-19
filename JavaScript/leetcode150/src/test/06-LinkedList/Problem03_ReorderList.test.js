@@ -1,4 +1,4 @@
-const reorderList = require('../main/Problem37_ReorderList');
+const reorderList = require('../../main/06-LinkedList/Problem03_ReorderList');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
