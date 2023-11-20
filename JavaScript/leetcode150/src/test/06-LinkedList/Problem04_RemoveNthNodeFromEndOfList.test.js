@@ -1,4 +1,4 @@
-const removeNthFromEnd = require('../main/Problem38_RemoveNthNodeFromEndOfList');
+const removeNthFromEnd = require('../../main/06-LinkedList/Problem04_RemoveNthNodeFromEndOfList');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
