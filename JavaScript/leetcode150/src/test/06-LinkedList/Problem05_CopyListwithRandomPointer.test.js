@@ -1,4 +1,4 @@
-const copyRandomList = require('../main/Problem39_CopyListwithRandomPointer');
+const copyRandomList = require('../../main/06-LinkedList/Problem05_CopyListwithRandomPointer');
 
 function ListNode(val, next, random) {
   this.val = val;
