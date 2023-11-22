@@ -1,4 +1,4 @@
-const addTwoNumbers = require('../main/Problem40_AddTwoNumbers');
+const addTwoNumbers = require('../../main/06-LinkedList/Problem06_AddTwoNumbers');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
