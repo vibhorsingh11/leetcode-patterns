@@ -1,4 +1,4 @@
-const hasCycle = require('../main/Problem41_LinkedListCycle');
+const hasCycle = require('../../main/06-LinkedList/Problem07_LinkedListCycle');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
