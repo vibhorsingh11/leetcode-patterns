@@ -1,4 +1,4 @@
-const findDuplicate = require('../main/Problem42_FindTheDuplicateNumber');
+const findDuplicate = require('../../main/06-LinkedList/Problem08_FindTheDuplicateNumber');
 
 test('should return the duplicate', () => {
   const nums = [1, 3, 4, 2, 2];
