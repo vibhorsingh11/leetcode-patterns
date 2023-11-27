@@ -1,4 +1,4 @@
-const mergeKLists = require('../main/Problem43_MergeKSortedLists');
+const mergeKLists = require('../../main/06-LinkedList/Problem09_MergeKSortedLists');
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
