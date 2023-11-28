@@ -1,4 +1,4 @@
-const LRUCache = require('../main/Problem44_LRUCache');
+const LRUCache = require('../../main/06-LinkedList/Problem10_LRUCache');
 
 test('should work as LRU cache', () => {
   const cache = new LRUCache(2);
