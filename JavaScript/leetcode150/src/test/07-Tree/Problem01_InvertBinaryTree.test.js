@@ -1,4 +1,4 @@
-const invertTree = require('../main/Problem46_InvertBinaryTree');
+const invertTree = require('../../main/07-Tree/Problem01_InvertBinaryTree');
 
 function TreeNode(val, left, right) {
   this.val = val === undefined ? 0 : val;
