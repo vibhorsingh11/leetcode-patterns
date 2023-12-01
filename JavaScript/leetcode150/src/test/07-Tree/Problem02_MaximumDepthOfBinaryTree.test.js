@@ -1,4 +1,4 @@
-const maxDepth = require('../main/Problem47_MaximumDepthOfBinaryTree');
+const maxDepth = require('../../main/07-Tree/Problem02_MaximumDepthOfBinaryTree');
 
 function TreeNode(val, left, right) {
   this.val = val === undefined ? 0 : val;
