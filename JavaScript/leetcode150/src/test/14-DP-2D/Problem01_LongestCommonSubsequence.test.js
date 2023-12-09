@@ -1,4 +1,4 @@
-const longestCommonSubsequence = require('../main/Problem108_LongestCommonSubsequence');
+const longestCommonSubsequence = require('../../main/14-DP-2D/Problem01_LongestCommonSubsequence');
 
 test('should return longest subsequence', () => {
   const text1 = 'abcde',
