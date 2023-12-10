@@ -1,4 +1,4 @@
-const change = require('../main/Problem110_CoinChangeII');
+const change = require('../../main/14-DP-2D/Problem02_CoinChangeII');
 
 test('should return number of combinations', () => {
   const amount = 5,
