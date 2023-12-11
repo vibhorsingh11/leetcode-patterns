@@ -1,4 +1,4 @@
-const findTargetSumWays = require('../main/Problem111_TargetSum');
+const findTargetSumWays = require('../../main/14-DP-2D/Problem111_TargetSum');
 
 test('should return number of ways', () => {
   const nums = [1, 1, 1, 1, 1],
