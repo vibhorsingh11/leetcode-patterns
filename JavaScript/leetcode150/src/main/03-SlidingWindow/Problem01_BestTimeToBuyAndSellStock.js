@@ -3,19 +3,19 @@
  * @return {number}
  */
 var maxProfit = function (prices) {
-  let left = 0;
-  let right = 1;
-  let maxProfit = 0;
-  while (right < prices.length) {
-    if (prices[left] < prices[right]) {
-      let profit = prices[right] - prices[left];
-      maxProfit = Math.max(profit, maxProfit);
-    } else {
-      left = right;
-    }
-    right++;
+  let min = prices[0],
+    profit = 0;
+
+  for (let i = 1; i < prices.length; i++) {
+    let cost = prices[i] - min;
+    profit = Math.max(profit, cost);
+    min = Math.min(prices[i], min);
   }
-  return maxProfit;
+
+  return profit;
 };
+
+//TC:- O(n)
+//SC:- O(1)
 
 module.exports = maxProfit;
